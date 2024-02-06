@@ -15,8 +15,11 @@ body{
     background-color: #473A8D;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
 .main{
-    display: none;
     height: 30vw;
     width: 75%;
     background-color: white;
@@ -55,8 +58,10 @@ body{
 }
 
 .scoreCard{
+    margin-left: 21vw;
+    padding: 3vw;
     background-color: white;
-    width: 35vw;
+    width: 50vw;
 }
 
 .top{
@@ -71,4 +76,21 @@ body{
 
 .buttons{
     text-align: center;
+    margin: 5vw;                                                                                                                                        
+}
+
+.reuslt, h2{
+    text-align: center;
+}
+
+.playAgain{
+    color: blue;
+    background-color: white;
+    border: 2px solid blue;
+}
+
+.backToHome{
+    color: green;
+    background-color: white;
+    border: 2px solid green;
 }
